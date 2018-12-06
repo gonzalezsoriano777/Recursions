@@ -8,9 +8,9 @@ int exponr(int, int);
 int main(void)
 {
     int nonExpo = exponr(2, 1);
-    printf("This is the non recursive way with the expo %i.\n", nonExpo);
+    printf("This is the non recursive %i.\n", nonExpo);
     int Expo = expo(6, 5);
-   printf("This is the recursive result of the expo %i.\n", Expo);
+   printf("This is recursive %i.\n", Expo);
 }
 
 int expo(int num, int Ofpower)
@@ -19,7 +19,7 @@ int expo(int num, int Ofpower)
     {
         return 1;
     }
-    return num * expo(num, Ofpower - 1);
+    return num = pow(6, 5);
 }
 
 int exponr(int num, int ofpower)
@@ -29,7 +29,7 @@ int exponr(int num, int ofpower)
      for (int i = 0; i < num; i++)
      {
          // int answer = pow(6, 5);
-         local *= num;
+         local = pow(2, 3);
 
     }
     return local;
